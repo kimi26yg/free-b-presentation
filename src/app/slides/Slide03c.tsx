@@ -20,7 +20,7 @@ export default function Slide03c() {
       </motion.h1>
 
       <div className={styles.body}>
-        <div className={styles.bodyRow}>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 20, width: '100%' }}>
           {insights.map((ins, i) => (
             <motion.div
               key={i}
@@ -28,6 +28,7 @@ export default function Slide03c() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3 + i * 0.2 }}
+              style={{ flex: 1 }}
             >
               <div className={styles.insightLabel}>{ins.label}</div>
               <div className={styles.insightTitle}>{ins.title}</div>

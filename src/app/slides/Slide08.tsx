@@ -24,15 +24,15 @@ export default function Slide08() {
       <div className={styles.body}>
         <div className={styles.twoCol}>
           <div>
-            <motion.p className={styles.subtitle} style={{ marginTop: 0 }} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.3 }}>
+            <motion.p className={styles.subtitle} style={{ marginTop: 0, fontSize: '1.25rem' }} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.3 }}>
               강사의 자연스러운 행동 하나하나가 운영 기록으로 쌓이도록 설계했습니다.
             </motion.p>
             <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.4 }} style={{ marginTop: 16 }}>
-              <div className={styles.badge}>React Native · Google MLKit · GPS · Firebase</div>
+              <div className={styles.badge} style={{ fontSize: '1.1rem', padding: '10px 24px' }}>React Native · Google MLKit · GPS · Firebase</div>
             </motion.div>
-            <ul className={styles.featureList} style={{ marginTop: 24 }}>
+            <ul className={styles.featureList} style={{ marginTop: 32 }}>
               {features.map((f, i) => (
-                <motion.li key={i} className={styles.featureItem} initial={{ opacity: 0, x: -15 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.5 + i * 0.08 }}>
+                <motion.li key={i} className={styles.featureItem} style={{ fontSize: '1.2rem', marginBottom: 12 }} initial={{ opacity: 0, x: -15 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.5 + i * 0.08 }}>
                   {f}
                 </motion.li>
               ))}
@@ -44,10 +44,10 @@ export default function Slide08() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.4 }}
           >
-            <div className={styles.imageContainer} style={{ width: 200, height: 400 }}>
+            <div className={styles.imageContainer} style={{ width: 230, height: 460 }}>
               <img src="/images/IMG_4677.PNG" alt="강사 앱" />
             </div>
-            <div className={styles.imageContainer} style={{ width: 200, height: 400 }}>
+            <div className={styles.imageContainer} style={{ width: 230, height: 460 }}>
               <img src="/images/IMG_4678.PNG" alt="강사 앱" />
             </div>
           </motion.div>

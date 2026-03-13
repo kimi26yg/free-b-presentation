@@ -47,7 +47,7 @@ export default function Slide15() {
             <div className={styles.statLabel}>배정 시간 단축</div>
           </motion.div>
           <motion.div className={styles.statCard} initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} transition={{ delay: 0.5 }}>
-            <div className={styles.statValue} style={{ fontSize: '3rem' }}>ZERO</div>
+            <div className={styles.statValue} style={{ fontSize: '4rem' }}>ZERO</div>
             <div className={styles.statLabel}>수기 입력</div>
           </motion.div>
           <motion.div className={styles.statCard} initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} transition={{ delay: 0.6 }}>

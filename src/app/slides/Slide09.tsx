@@ -42,7 +42,7 @@ export default function Slide09() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.5 }}
           >
-            <div className={styles.imageContainer} style={{ width: 320, height: 600, border: 'none', background: 'transparent' }}>
+            <div className={styles.imageContainer} style={{ width: 350, height: 650, border: 'none', background: 'transparent' }}>
               <img src="/images/contract.PNG" alt="전자서명 화면" style={{ objectFit: 'contain', borderRadius: '16px 0 16px 16px' }} />
             </div>
           </motion.div>
