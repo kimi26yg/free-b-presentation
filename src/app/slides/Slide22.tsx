@@ -49,11 +49,11 @@ export default function Slide22() {
                 <span style={{ width: 10, height: 10, borderRadius: '50%', background: '#FFBD2E' }} />
                 <span style={{ width: 10, height: 10, borderRadius: '50%', background: '#27C93F' }} />
               </div>
-              <iframe src="http://localhost:3001" title="Landing Page" style={{ width: '100%', height: 'calc(100% - 40px)', border: 'none', background: '#fff', marginTop: 40, display: 'block' }} />
+              <iframe src="https://landing-omega-eight-75.vercel.app/" title="Landing Page" style={{ width: '100%', height: 'calc(100% - 40px)', border: 'none', background: '#fff', marginTop: 40, display: 'block' }} />
             </div>
             <div style={{ textAlign: 'center' }}>
               <h3 style={{ fontSize: '1.4rem', fontWeight: 700, marginBottom: 8 }}>
-                <a href="http://localhost:3001" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>서비스 랜딩 (Landing Hero) ↗</a>
+                <a href="https://landing-omega-eight-75.vercel.app/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>서비스 랜딩 (Landing Hero) ↗</a>
               </h3>
               <p style={{ color: 'var(--text-secondary)' }}>프리랜서 및 업체를 위한 홍보 페이지</p>
             </div>
