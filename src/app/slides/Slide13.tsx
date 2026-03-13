@@ -27,8 +27,8 @@ export default function Slide13() {
         유저는 렌더링을 기다려주지 않는다
       </motion.h1>
 
-      <div className={styles.body}>
-        <div className={styles.twoCol} style={{ gap: 40, alignItems: 'flex-start', marginTop: 32 }}>
+      <div className={styles.body} style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', marginTop: 0 }}>
+        <div className={styles.twoCol} style={{ gap: 40, alignItems: 'center' }}>
           <div>
             <motion.div className={styles.badge} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.3 }}>
               최적화 기법

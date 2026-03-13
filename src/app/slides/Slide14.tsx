@@ -22,7 +22,7 @@ export default function Slide14() {
         행정을 배우지 않아도 됩니다. 필요한 행동만 순서대로 나옵니다.
       </motion.p>
 
-      <div className={styles.body}>
+      <div className={styles.body} style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', marginTop: 0 }}>
         <div className={styles.bodyRow}>
           {cards.map((c, i) => (
             <motion.div key={i} className={styles.card} initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.4 + i * 0.15 }}>
